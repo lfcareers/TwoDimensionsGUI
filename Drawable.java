@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Drawable {
+import java.awt.*;
+
+// Interface for drawing
+interface Drawable {
+    void draw(Graphics g);
 }
